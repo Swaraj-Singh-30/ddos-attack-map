@@ -1,0 +1,12 @@
+# Virtual environment
+.venv/
+
+# Docker
+.dockerignore
+.env
+!backend/
+!frontend/
+
+# Python
+__pycache__/
+*.pyc
