@@ -94,3 +94,5 @@ ddos-attack-map/
 * **Implement data fetching logic** from AbuseIPDB and Cloudflare Radar.
 * **Build the machine learning model** to classify attack confidence.
 * **Develop the frontend visualization** to display the data on the globe.
+
+we have ignored the warning of InconsistentVersionWarning for scikit-learn in the requirements.txt file for now, as it does not affect the functionality of the project. This could taken as a good first issue for someone looking to contribute.
