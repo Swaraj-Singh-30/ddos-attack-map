@@ -1,4 +1,5 @@
 # Live DDoS Attack Map
+> **Note:** This project is currently under active development and not yet ready for production use.
 
 ### 🌐 About the Project
 
@@ -69,22 +70,23 @@ You will also need to obtain API keys for the following services:
 ---
 
 ### 📂 Folder Structure
-
+```
 ddos-attack-map/
-├── .dockerignore
-├── .env
-├── docker-compose.yml
-├── requirements.txt
-├── README.md
+├── .dockerignore          # Docker ignore file
+├── .env                   # Environment variables
+├── docker-compose.yml     # Docker compose configuration
+├── requirements.txt       # Python dependencies
+├── README.md             # Project documentation
 │
-├── backend/
-│   ├── app/
-│   │   ├── ...
-│   └── Dockerfile
+├── backend/              # Backend service directory
+│   ├── app/             # FastAPI application
+│   │   └── ...         # Backend source files
+│   └── Dockerfile      # Backend container configuration
 │
-└── frontend/
-├── index.html
-├── ...
+└── frontend/            # Frontend service directory
+    ├── index.html      # Main HTML file
+    └── ...             # Frontend assets and source files
+```
 
 
 ---
@@ -95,4 +97,4 @@ ddos-attack-map/
 * **Build the machine learning model** to classify attack confidence.
 * **Develop the frontend visualization** to display the data on the globe.
 
-we have ignored the warning of InconsistentVersionWarning for scikit-learn in the requirements.txt file for now, as it does not affect the functionality of the project. This could taken as a good first issue for someone looking to contribute.
+I have ignored the warning of InconsistentVersionWarning for scikit-learn in the requirements.txt file for now, as it does not affect the functionality of the project. This could taken as a good first issue for someone looking to contribute(after the project is complete).
