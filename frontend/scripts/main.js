@@ -1,5 +1,3 @@
-// In frontend/scripts/main.js
-
 const API_URL = 'http://localhost:8000/api/attacks';
 const COUNTRY_COORDS_URL = 'https://restcountries.com/v3.1/all?fields=cca2,latlng,name';
 const UPDATE_INTERVAL_MS = 60 * 1000; // 1 minute

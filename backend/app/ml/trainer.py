@@ -1,5 +1,3 @@
-# In backend/app/ml/trainer.py
-
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import OneHotEncoder
@@ -9,7 +7,6 @@ import sys
 from dotenv import load_dotenv
 from datetime import datetime
 
-# Load environment variables from the .env file
 load_dotenv()
 
 # Add the project's root directory to the Python path

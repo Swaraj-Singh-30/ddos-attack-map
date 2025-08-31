@@ -1,5 +1,4 @@
-// In frontend/scripts/countries.js
-
+//This file was not supposed to be present in the first place in the upcoming commit it will be delted. 
 const countryData = [
     {
       "Country": "Afghanistan",
